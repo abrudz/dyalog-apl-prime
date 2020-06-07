@@ -52,7 +52,7 @@ Now you have three options:
 |[Tilde](Tilde.aplf)|`~`|on major cells|
 |[UpShoe](UpShoe.aplf)|`∩`|on major cells|
 |[UpTack](UpTack.aplf)|`⊥`|transposed|
-|[_BackSlash](_BackSlash.aplo)|`\`|scan first and outer product|
-|[_Diaeresis](_Diaeresis.aplo)|`¨`|handling empty arrays with failing prototype|
-|[_JotDiaeresis_](_JotDiaeresis_.aplo)|`⍤`|but handling empties|
-|[_Slash](_Slash.aplo)|`/`|only reduce first|
+|[\_BackSlash](_BackSlash.aplo)|`\`|scan first and outer product|
+|[\_Diaeresis](_Diaeresis.aplo)|`¨`|handling empty arrays with failing prototype|
+|[\_JotDiaeresis\_](_JotDiaeresis_.aplo)|`⍤`|but handling empties|
+|[\_Slash](_Slash.aplo)|`/`|only reduce first|
