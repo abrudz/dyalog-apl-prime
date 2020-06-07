@@ -1,4 +1,5 @@
-_BackSlash←{ ⍝ \ scan first and outer product
-     0=⎕NC'⍺':⍺⍺⍀⍵
+ _BackSlash←{ ⍝ \ scan first and outer product
+     0=⎕NC'⍺':⍺⍺⌿_Diaeresis↑∘⍵¨(~⎕IO)+⍳≢⍵
+     0∩shape←∊⍴¨⍺ ⍵::shape⍴⎕NS ⍬
      ⍺∘.⍺⍺ ⍵
  }

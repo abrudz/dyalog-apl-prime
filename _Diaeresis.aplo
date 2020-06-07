@@ -1,5 +1,6 @@
-_Diaeresis←{ ⍝ ¨ ignoring empty arrays
+ _Diaeresis←{ ⍝ ¨ handling empty arrays with failing prototype
      ⍺←⊢
-     (0∘∊∘∊∧0∊≢¨)⍴¨⍺ ⍵ ⍵:⍵
+     r←⍺⊢¨⍵
+     0⍴⍨0∊⍴r::(⍴r)⍴⎕NS ⍬
      ⍺ ⍺⍺¨⍵
  }

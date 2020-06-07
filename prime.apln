@@ -2,6 +2,15 @@
     ⎕IO←1 ⋄ ⎕ML←1
     Err←{⍞←⍵,⎕UCS 13}
 
+    ∇ {text}←UpdateReadme path;head;tail;file
+      file←path,'/README.md'
+      text←⊃⎕NGET file 1
+      head←(3↑¨text)⍳⊂'| -'
+      tail←'⎕\S+'⎕R'`&`'{'|[',⍵,'](',⍵,'.apl',('  fo'⊃⍨⊃##.⎕NC ⍵),')',⊃'⍝ (.) (.*)'⎕S'|`\1`|\2|'⊃##.⎕NR ⍵}¨##.⎕NL-3 4
+      text←tail,⍨head↑text
+      file 1 ⎕NPUT⍨⊂text
+    ∇
+
     ∇ {ns}←Repl target;input;n;v
       2022⌶⍣('W'=⊃⊃# ⎕WG'APLVersion')⊤⍨⍬
       :If ×≢target

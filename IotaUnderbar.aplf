@@ -1,5 +1,5 @@
-IotaUnderbar←{ ⍝ ⍸ ⍝ just ⎕IO
-     ⎕IO←0
+IotaUnderbar←{ ⍝ ⍸ ⎕IO←0 for monadic but ⎕IO←1 for dyadic
+     ⎕IO←×⎕NC'⍺'
      ⍺←⊢
      ⍺⍸⍵
  }

@@ -40,18 +40,19 @@ Now you have three options:
 |[DownTack](DownTack.aplf)|`⊤`|transposed and extend scalar|
 |[Epsilon](Epsilon.aplf)|`∊`|on major cells|
 |[Iota](Iota.aplf)|`⍳`|noticing 1-element vector|
-|[IotaUnderbar](IotaUnderbar.aplf)|`⍸`|⍝ just `⎕IO`|
-|[LeftShoe](LeftShoe.aplf)|`⊂`|⍝ just `⎕IO`|
+|[IotaUnderbar](IotaUnderbar.aplf)|`⍸`|`⎕IO←0` for monadic but `⎕IO←1` for dyadic|
+|[LeftShoe](LeftShoe.aplf)|`⊂`|just `⎕IO|`
 |[LeftShoeUnderbar](LeftShoeUnderbar.aplf)|`⊆`|on major cells|
 |[Plus](Plus.aplf)|`+`|purely numeric|
 |[QuadDivide](QuadDivide.aplf)|`⌹`|high rank|
 |[Query](Query.aplf)|`?`|high rank|
-|[RightShoe](RightShoe.aplf)|`⊃`|⍝ just `⎕IO`|
+|[RightShoe](RightShoe.aplf)|`⊃`|just `⎕IO|`
 |[SlashBar](SlashBar.aplf)|`⌿`|only replicate first|
 |[Squad](Squad.aplf)|`⌷`|but sane|
 |[Tilde](Tilde.aplf)|`~`|on major cells|
 |[UpShoe](UpShoe.aplf)|`∩`|on major cells|
 |[UpTack](UpTack.aplf)|`⊥`|transposed|
 |[_BackSlash](_BackSlash.aplo)|`\`|scan first and outer product|
-|[_Diaeresis](_Diaeresis.aplo)|`¨`|ignoring empty arrays|
+|[_CircleDiaeresis_](_CircleDiaeresis_.aplo)|`⍤`|but handling empties|
+|[_Diaeresis](_Diaeresis.aplo)|`¨`|handling empty arrays with failing prototype|
 |[_Slash](_Slash.aplo)|`/`|only reduce first|

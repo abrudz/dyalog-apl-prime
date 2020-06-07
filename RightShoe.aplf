@@ -1,4 +1,4 @@
-RightShoe←{ ⍝ ⊃ ⍝ just ⎕IO
+RightShoe←{ ⍝ ⊃ just ⎕IO
      ⍺←⊢
      ⎕IO←0
      ⍺⊃⍵

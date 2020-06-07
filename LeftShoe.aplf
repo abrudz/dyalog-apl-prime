@@ -1,4 +1,4 @@
-LeftShoe←{ ⍝ ⊂ ⍝ just ⎕IO
+LeftShoe←{ ⍝ ⊂ just ⎕IO
      0=⎕NC'⍺':⊂⍵
      ⍺⊂[⎕IO]⍵
  }
