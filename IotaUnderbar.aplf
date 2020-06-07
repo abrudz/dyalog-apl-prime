@@ -1,0 +1,5 @@
+IotaUnderbar←{ ⍝ ⍸
+     ⎕IO←0
+     ⍺←⊢
+     ⍺⍸⍵
+ }

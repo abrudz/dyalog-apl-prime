@@ -1,0 +1,5 @@
+LeftShoeUnderbar←{ ⍝ ⊆ on major cells
+     0=⎕NC'⍺':⊆⍵
+     m←⍺>0
+     (m⌿2<⌿0,⍺)⊂[⎕IO](m⌿⍵)
+ }

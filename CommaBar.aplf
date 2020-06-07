@@ -1,0 +1,4 @@
+CommaBar←{ ⍝ ⍪ increase rank/join
+     0=⎕NC'⍺':⍵⍴⍨1,⍴⍵
+     ↑⍺ ⍵
+ }

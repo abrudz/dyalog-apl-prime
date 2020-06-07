@@ -1,0 +1,3 @@
+BackSlashBar←{ ⍝ ⍀ only expand first
+     ⍺⍀⍵
+ }

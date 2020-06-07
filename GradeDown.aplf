@@ -1,0 +1,5 @@
+GradeDown←{ ⍝ ⍒ but dyadic sort-by
+     1=⎕NC'⍺':⍵⌷⍨⊂⍒⍺
+     ⎕IO←0
+     ⍒⍵
+ }

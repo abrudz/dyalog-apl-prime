@@ -1,0 +1,5 @@
+_Diaeresis←{ ⍝ ¨ ignoring empty arrays
+     ⍺←⊢
+     (0∘∊∘∊∧0∊≢¨)⍴¨⍺ ⍵ ⍵:⍵
+     ⍺ ⍺⍺¨⍵
+ }

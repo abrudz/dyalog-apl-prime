@@ -1,0 +1,5 @@
+CircleBackSlash←{ ⍝ ⍉ monadic rotates axes
+     ⎕IO←0
+     ⍺←1⌽⍳≢⍴⍵
+     ⍺⍉⍵
+ }

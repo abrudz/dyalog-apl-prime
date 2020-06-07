@@ -1,0 +1,4 @@
+UpShoe←{ ⍝ ∩ on major cells
+     ⎕IO←0
+     ⍺⌿⍨⍵<∘≢⍨⍵⍳⍺
+ }

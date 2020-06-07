@@ -1,0 +1,4 @@
+DownTack←{ ⍝ ⊤ transposed and extend scalar
+     ⍬≡⍴⍺:⍉⍺⊥⍣¯1⊢⍵
+     ⍉⍺⊤⍵
+ }

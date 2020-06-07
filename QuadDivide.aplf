@@ -1,0 +1,4 @@
+QuadDivide←{ ⍝ ⌹ high rank
+     ⍺←⊢
+     ⍺⌹⍤2⊢⍵
+ }

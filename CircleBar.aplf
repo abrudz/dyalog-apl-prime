@@ -1,0 +1,3 @@
+CircleBar←{ ⍝ ⊖ disabled
+     ⎕SIGNAL⊂('EN' 2)('Message' 'Invalid token')
+ }

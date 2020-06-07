@@ -1,0 +1,4 @@
+_BackSlash←{ ⍝ \ scan first and outer product
+     0=⎕NC'⍺':⍺⍺⍀⍵
+     ⍺∘.⍺⍺ ⍵
+ }

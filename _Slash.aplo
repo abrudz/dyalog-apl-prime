@@ -1,0 +1,4 @@
+_Slash←{ ⍝ / only reduce first
+     ⍺←⊢
+     ⍺ ⍺⍺⌿⍵
+ }

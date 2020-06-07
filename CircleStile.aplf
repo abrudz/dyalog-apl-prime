@@ -1,0 +1,9 @@
+CircleStile←{ ⍝ ⌽ first axis
+     0=⎕NC'⍺':⊖⍺
+     Apply←{
+         Rot←{⍵⌽[⊃⌽⍺]⍨⊃⍺}
+         LenAxis←⍺,¨⍳∘≢⍺
+         ⊃Rot/LenAxis,⊂⍵
+     }
+     ⍺ Apply⍤1 99⊢⍵
+ }

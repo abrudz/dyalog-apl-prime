@@ -1,0 +1,4 @@
+Plus←{ ⍝ + purely numeric
+     ⍺←⊢
+     ⍺+1×⍵
+ }

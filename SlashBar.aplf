@@ -1,0 +1,3 @@
+SlashBar←{ ⍝ ⌿ only replicate first
+     ⍺⌿⍵
+ }

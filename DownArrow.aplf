@@ -1,0 +1,4 @@
+DownArrow←{ ⍝ ↓ enclose major cells
+     0=⎕NC'⍺':⊂⍤¯1⊢⍵
+     ⍺↓⍵
+ }

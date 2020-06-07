@@ -1,0 +1,5 @@
+Epsilon←{ ⍝ ∊ on major cells
+     0=⎕NC'⍺':∊⍵
+     ⎕IO←0
+     ⍵<∘≢⍨⍵⍳⍺
+ }
