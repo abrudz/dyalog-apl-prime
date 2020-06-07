@@ -1,4 +1,4 @@
-GradeUp←{ ⍝ ⍋ but dyadic sort-by
+DeltaStile←{ ⍝ ⍋ but dyadic sort-by
      1=⎕NC'⍺':⍺⌷⍨⊂⍋⍵
      ⎕IO←0
      ⍋⍵

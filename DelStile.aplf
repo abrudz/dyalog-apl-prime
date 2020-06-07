@@ -1,4 +1,4 @@
-GradeDown←{ ⍝ ⍒ but dyadic sort-by
+DelStile←{ ⍝ ⍒ but dyadic sort-by
      1=⎕NC'⍺':⍵⌷⍨⊂⍒⍺
      ⎕IO←0
      ⍒⍵
