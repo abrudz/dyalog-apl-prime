@@ -1,6 +1,6 @@
-# [Dyalog APL](https://www.dyalog.com/)′ ("Prime")
+# Dyalog APL′ ("Prime")
 
-"Prime" is intended as a rather minimal modification of Dyalog APL, but going back and correcting original design mistakes. This mostly regards being primary-axis oriented, but also applies to making the original operators consistent and making `⎕IO←0` forced. The goal is to make APL more appealing to the modern audience. That is, to bring APL into its prime.
+"Prime" is intended as a rather minimal modification of [Dyalog APL](https://www.dyalog.com/), but going back and correcting original design mistakes. This mostly regards being primary-axis oriented, but also applies to making the original operators consistent and making `⎕IO←0` forced. The goal is to make APL more appealing to the modern audience. That is, to bring APL into its prime.
 
 Requires Dyalog APL version 17.1 or higher.
 
