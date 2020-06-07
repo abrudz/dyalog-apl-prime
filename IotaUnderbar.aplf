@@ -1,4 +1,4 @@
-IotaUnderbar←{ ⍝ ⍸
+IotaUnderbar←{ ⍝ ⍸ ⍝ just ⎕IO
      ⎕IO←0
      ⍺←⊢
      ⍺⍸⍵

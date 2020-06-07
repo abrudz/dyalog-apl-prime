@@ -33,20 +33,20 @@ Now you have three options:
 |[CircleStile](CircleStile.aplf)|`⌽`|first axis|
 |[Comma](Comma.aplf)|`,`|first axis|
 |[CommaBar](CommaBar.aplf)|`⍪`|increase rank/join|
+|[DelStile](DelStile.aplf)|`⍒`|but dyadic sort-by|
+|[DeltaStile](DeltaStile.aplf)|`⍋`|but dyadic sort-by|
 |[DownArrow](DownArrow.aplf)|`↓`|enclose major cells|
 |[DownShoe](DownShoe.aplf)|`∪`|on major cells|
 |[DownTack](DownTack.aplf)|`⊤`|transposed and extend scalar|
 |[Epsilon](Epsilon.aplf)|`∊`|on major cells|
-|[GradeDown](GradeDown.aplf)|`⍒`|but dyadic sort-by|
-|[GradeUp](GradeUp.aplf)|`⍋`|but dyadic sort-by|
 |[Iota](Iota.aplf)|`⍳`|noticing 1-element vector|
-|[IotaUnderbar](IotaUnderbar.aplf)|`⍸`|just ⎕IO|
-|[LeftShoe](LeftShoe.aplf)|`⊂`|just ⎕IO|
+|[IotaUnderbar](IotaUnderbar.aplf)|`⍸`|⍝ just `⎕IO`|
+|[LeftShoe](LeftShoe.aplf)|`⊂`|⍝ just `⎕IO`|
 |[LeftShoeUnderbar](LeftShoeUnderbar.aplf)|`⊆`|on major cells|
 |[Plus](Plus.aplf)|`+`|purely numeric|
 |[QuadDivide](QuadDivide.aplf)|`⌹`|high rank|
 |[Query](Query.aplf)|`?`|high rank|
-|[RightShoe](RightShoe.aplf)|`⊃`|just ⎕IO|
+|[RightShoe](RightShoe.aplf)|`⊃`|⍝ just `⎕IO`|
 |[SlashBar](SlashBar.aplf)|`⌿`|only replicate first|
 |[Squad](Squad.aplf)|`⌷`|but sane|
 |[Tilde](Tilde.aplf)|`~`|on major cells|
