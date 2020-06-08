@@ -23,7 +23,7 @@ Now you have three options:
 1. Use `ns.prime.Repl ''` to start a (limited) self-contained session where the glyphs work. Enter `→` to exit.
 1. Use `ns.prime.Repl ref` to start a (limited) session in the namespace `ref`. Enter `→` to exit. 
 
-### Content
+### Breaking changes
 
 | Name                                              | Glyph  | Extension                                                    |
 | ------------------------------------------------- | :----: | ------------------------------------------------------------ |
