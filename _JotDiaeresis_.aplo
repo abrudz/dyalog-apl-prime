@@ -1,6 +1,8 @@
  _JotDiaeresis_←{ ⍝ ⍤ but handling empties
+     ⍺←⊢
+     2≠⎕NC'⍵⍵':⍺⍺ ⍺ ⍵⍵ ⍵
      rank←⌽3⍴⌽⍵⍵
-     0=⎕NC'⍺':↑⍺⍺ _Diaeresis⊂⍤(⊃rank)⊢⍵
+     2≠⎕NC'⍺':↑⍺⍺ _Diaeresis⊂⍤rank⊢⍵
      a←⊂⍤(⊃1⌽rank)⊢⍺
      w←⊂⍤(⊃2⌽rank)⊢⍵
      ↑⍺ ⍺⍺ _Diaeresis ⍵
