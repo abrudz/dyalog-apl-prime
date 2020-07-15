@@ -1,5 +1,5 @@
 CircleStile←{ ⍝ ⌽ first axis
-     0=⎕NC'⍺':⊖⍺
+     0=⎕NC'⍺':⊖⍵
      Apply←{
          Rot←{⍵⌽[⊃⌽⍺]⍨⊃⍺}
          LenAxis←⍺,¨⍳∘≢⍺
